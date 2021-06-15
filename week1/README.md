@@ -23,6 +23,7 @@
 
     ```md
     # Joe Smith
+    - I'm a student and I like to code
     - git is hard, I don't "git" it
     - HTML is a programming language
     - Do I get a job now?
