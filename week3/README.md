@@ -26,6 +26,7 @@
     - Example: https://swapi.dev/api/people/1
   - National Highway Safeway Vehicle database: https://vpic.nhtsa.dot.gov/api/
     - Example: https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?format=json
+  - Here's a giant directory of other APIs. Use the toolbar on the left to find a category that's interesting to you. https://documenter.getpostman.com/view/8854915/Szf7znEe#62510224-e2fc-4a7a-af33-33b4a31b63b3
   - UCSB Academics: https://developer.ucsb.edu/apis/academics
 - HTTP
   - https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
