@@ -12,6 +12,7 @@ Install these development tools on your machine:
 - [Docker Desktop](https://docs.docker.com/get-docker/)
 - [Python 3.8 or greater](https://www.python.org/downloads/)
 - [Make an account on GitHub](https://github.com/join)
+- [Postman](https://www.postman.com/)
 
 ## Python learning resources
 
