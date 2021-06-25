@@ -5,11 +5,13 @@
 - What is source control
 - Git
 - GitHub
-- Fork
-- Clone
-- Commit
-- Push
-- Pull Request
+- Typical workflow:
+    - Fork
+    - Clone
+    - Commit
+    - Push
+    - Pull Request
+- Fork vs branch
 
 ## Learning materials
 
