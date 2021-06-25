@@ -5,6 +5,13 @@
 - Not sure how to create a blank file and add stuff to it.
 - Other than that I think I got everything.
 
+
+
+
+
+
+
+
 # Lauren Huang
 - I am an incoming 3rd year Statstics and Data Science major
 - I just added an Education minor and am taking my first class
