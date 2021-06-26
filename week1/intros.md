@@ -18,5 +18,4 @@
 - I just added an Education minor and am taking my first class
 - I love working with digital art in my spare time!
 - I learned how to fork a repo, make commits, and create a pull request
-- I should practice more with pull requests and finding where things are :) (update!)
 - I am excited to learn more about data science and coding!
