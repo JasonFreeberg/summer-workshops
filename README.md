@@ -2,6 +2,12 @@
 
 Summer workshops, Data Science @ UCSB
 
+- [Week 1: Git, GitHub, Source Control workflow](week1/)
+- [Week 2: CI/CD, DevOps, and GitHub Actions](week2/)
+- [Week 3: REST APIs](week3/)
+- [Week 4: Docker Containers](week4/)
+- Week 5: Welcome to the cloud
+
 ## Software
 
 Install these development tools on your machine:
