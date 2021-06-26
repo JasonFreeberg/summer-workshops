@@ -19,6 +19,7 @@
 - I love working with digital art in my spare time!
 - I learned how to fork a repo, make commits, and create a pull request
 - I am excited to learn more about data science and coding!
+- I am updating my intro and practing working with pull requests :)
 
 # Yimin Arava
 - I am a Second year going into my third next fall and I like to code
