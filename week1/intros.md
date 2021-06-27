@@ -25,3 +25,9 @@
 - I learned how to Fork, Clone and create Pull Request on GitHub
 - Python is my favorite programming language 
 - I know how to speak English and Mandarin
+
+# Bernie Graves
+- I just finished my second year at UCSB
+- I used to be a physics major but switched to statistics and data science
+- GitHub seems like an incredibly important part of coding and I'm glad to have found this gorup to properly learn it
+- I learned how to fork, commit, clone a repo and make pull requests
