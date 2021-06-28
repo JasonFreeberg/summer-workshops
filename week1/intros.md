@@ -26,6 +26,12 @@
 - Python is my favorite programming language 
 - I know how to speak English and Mandarin
 
+# Bernie Graves
+- I just finished my second year at UCSB
+- I used to be a physics major but switched to statistics and data science
+- GitHub seems like an incredibly important part of coding and I'm glad to have found this gorup to properly learn it
+- I learned how to fork, commit, clone a repo and make pull requests
+
 # Harper Klauke
 - I'm an incoming 4th year Statistics and Data Science major
 - I currently work as a peer advisor for the UCSB PSTAT Department
