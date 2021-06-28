@@ -25,3 +25,10 @@
 - I learned how to Fork, Clone and create Pull Request on GitHub
 - Python is my favorite programming language 
 - I know how to speak English and Mandarin
+
+# Harper Klauke
+- I'm an incoming 4th year Statistics and Data Science major
+- I currently work as a peer advisor for the UCSB PSTAT Department
+- I like to write stuff and read books
+- I'm gradually figuring out source control
+- I'm also in the process of creating a GitHub Pages site!
