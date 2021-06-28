@@ -17,7 +17,7 @@
 - I am an incoming 3rd year Statstics and Data Science major
 - I just added an Education minor and am taking my first class
 - I love working with digital art in my spare time!
-- I learned how to fork a repo, make commits, and create a pull request
+- I learned how to fork a repo, make commits, and create a pull request (need to practice more, making an update!)
 - I am excited to learn more about data science and coding!
 
 # Yimin Arava
