@@ -13,3 +13,9 @@ Let's break that command down word-by-word:
 3. `-t`: This is the "tag" argument, meaning we want to tag the Docker image with the following name and tag (of the format `name:tag`)
 4. `hello-world`: This is the name of the Docker image we're going to create, since we didn't give a name for the tag, it will automatically be tagged `latest` (as in `hello-world:latest`)
 5. `.`: The dot (period) literally means "the current directory". You'll see this used in a lot of contexts. Two dots, `..`, means "the parent directory". So when you're in the terminal, `cd ..` moves you up 1 level in the directory.
+
+Once the image is built, you can run it with:
+
+```bash
+docker run hello-world:latest
+```
