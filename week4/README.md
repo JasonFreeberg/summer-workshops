@@ -18,4 +18,21 @@
   - Build and run locally
   - Publish to a registry
   - Server or cloud service pulls the image and runs it
+
+## Learning Materials
+
+1. [Getting Started Guide from Docker](https://docs.docker.com/get-started/). Only parts 1 through 4 are necessary at this point.
+  - Looks like Microsoft has an identical guide here: https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial
+2. YouTube Videos. These are from the context of .NET, which is a framework built on top of C#. You can ignore the .NET specifics, but their explanations and reasoning about Docker containers is in plain English.
+  1. https://www.youtube.com/watch?v=vmnvOITMoIg&ab_channel=dotNET
+  2. https://www.youtube.com/watch?v=k2sskhYEPkI&ab_channel=dotNET
+  3. https://www.youtube.com/watch?v=d7D0h9i-QCw&ab_channel=dotNET
   
+## Exercises
+  
+1. If you haven't already, fork the python-playground sample repo. In your fork, add a `Dockerfile` that creates a virtual environment, installs the packages, and runs the application. Remember, your Dockerfile will need to copy the application code and requirements.txt file!
+2. Create an account on  [DockerHub](https://hub.docker.com/) and push a Docker image to it (any image, as long as it runs!). This will require you to run `docker push`. Once the image is pushed, try to pull the image and run it (using `docker pull`).
+  - Note: This is covered in Part 4 of the "Getting Started Guide from Docker" above.
+4. If you accomplished exercises 1 and 2, write a GitHub Actions workflow that builds your Docker iamge every time there's a PR on the main branch.
+5. Finally, write a GitHub Actions workflow that builds your Docker image and pushes it to GitHub Continer Registrty every time there's a **push** on the main branch. If you can do this one, then you're really cooking with peanut oil! Here is a doc article to get you started:
+    - https://docs.github.com/en/actions/guides/publishing-docker-images#publishing-images-to-github-packages
