@@ -32,7 +32,7 @@
   
 1. If you haven't already, fork the python-playground sample repo. In your fork, add a `Dockerfile` that creates a virtual environment, installs the packages, and runs the application. Remember, your Dockerfile will need to copy the application code and requirements.txt file!
 2. Create an account on  [DockerHub](https://hub.docker.com/) and push a Docker image to it (any image, as long as it runs!). This will require you to run `docker push`. Once the image is pushed, try to pull the image and run it (using `docker pull`).
-  - Note: This is covered in Part 4 of the "Getting Started Guide from Docker" above.
+    - Note: This is covered in Part 4 of the "Getting Started Guide from Docker" above.
 4. If you accomplished exercises 1 and 2, write a GitHub Actions workflow that builds your Docker iamge every time there's a PR on the main branch.
 5. Finally, write a GitHub Actions workflow that builds your Docker image and pushes it to GitHub Continer Registrty every time there's a **push** on the main branch. If you can do this one, then you're really cooking with peanut oil! Here is a doc article to get you started:
     - https://docs.github.com/en/actions/guides/publishing-docker-images#publishing-images-to-github-packages
