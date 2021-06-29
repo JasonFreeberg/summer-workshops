@@ -2,6 +2,11 @@
 
 ## Topics
 
+- Inner and outer development loops
+  - "Inner dev loop" is writing code, building the code, and running/testing the code. When you're satisfied with your changes, you'll open a PR to push your changes into the code base. Then begins the next loop...
+  - The "outer" loop involves running automated tests on your PR, getting it reviewed and merged. Next, someone will "cut a release" meaning that all the planned improvements for that milestone are in the code base at the commmit at which the release was made. From there, the compiled code might be deployed to a system, an update becomes available for mobile app users, etc. 
+
+    ![](https://lh3.googleusercontent.com/proxy/zc9YiocpMQm6vf2MzRKLMZbtVC-_iq5mDsAJ7itGrJx_TEIkCBSAOZCRlqlGEkO2DvN0gxubykWJ4yzMGs6GClP5SyEzo33wWoh-2VYLQb0YVpXoFw6M46u-UvkikA)
 - Continuous Integration
   - Test code, publish code coverage and results
   - Save time, prevent bugs which speeds development cycle
@@ -10,10 +15,12 @@
   - Promotes a culture of fast-paced deployments
   - Root cause problems
 - Automation
-  - DevOps (catch-all term)
-  - Chat-ops (PR review, build automation)
-  - Git-ops (infrastructure as code)
-- GitHub Actions concepts
+  - DevOps: catch-all term for work involving development operations like CI pipelines, release management and deployment, and possibly IT infrastructure.
+  - Chat-ops: automation built into the chat functionality on issues and pull requests. Useful in large organizations where you don't want users to have rights to manage issues/PRs directly. 
+    - Ex: See Azure Docs repo
+  - Git-ops: a software development strategy where the git repository acts as the central source of truth for the project. An example would be defining your IT infrastructure using Terraform, and tagging releases or deployments with the respective commit hash.
+    - Ex: See Azure Bicep
+- GitHub Actions: an automation framework
   - workflow file
   - jobs
   - steps
