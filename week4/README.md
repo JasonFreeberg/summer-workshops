@@ -18,6 +18,8 @@
   - Build and run locally
   - Publish to a registry
   - Server or cloud service pulls the image and runs it
+  - Secrets
+  - Env vars
 
 ## Learning Materials
 
