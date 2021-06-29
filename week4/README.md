@@ -22,11 +22,11 @@
 ## Learning Materials
 
 1. [Getting Started Guide from Docker](https://docs.docker.com/get-started/). Only parts 1 through 4 are necessary at this point.
-  - Looks like Microsoft has an identical guide here: https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial
-2. YouTube Videos. These are from the context of .NET, which is a framework built on top of C#. You can ignore the .NET specifics, but their explanations and reasoning about Docker containers is in plain English.
-  1. https://www.youtube.com/watch?v=vmnvOITMoIg&ab_channel=dotNET
-  2. https://www.youtube.com/watch?v=k2sskhYEPkI&ab_channel=dotNET
-  3. https://www.youtube.com/watch?v=d7D0h9i-QCw&ab_channel=dotNET
+    - Looks like Microsoft has an identical guide here: https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial
+3. YouTube Videos. These are from the context of .NET, which is a framework built on top of C#. You can ignore the .NET specifics, but their explanations and reasoning about Docker containers is in plain English.
+    1. https://www.youtube.com/watch?v=vmnvOITMoIg&ab_channel=dotNET
+    2. https://www.youtube.com/watch?v=k2sskhYEPkI&ab_channel=dotNET
+    3. https://www.youtube.com/watch?v=d7D0h9i-QCw&ab_channel=dotNET
   
 ## Exercises
   
