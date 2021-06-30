@@ -14,12 +14,10 @@
 - Very common in the cloud
   - Not every cloud has services to run Python apps, Java apps, Go apps, and Ruby apps... but they all have a service to run Docker images!
 - How Docker works in practice
-  - Add Dockerfile
-  - Build and run locally
-  - Publish to a registry
-  - Server or cloud service pulls the image and runs it
-  - Secrets
-  - Env vars
+  - Add Dockerfile to the project, which describes the build and runtime steps for the application
+  - Build and run locally _on docker_ (`docker build` and `docker run` instead of `pip install` and `python main.py`)
+  - Publish to a registry (`docker push ...`)
+  - Server or cloud service pulls the image and runs it (under the hoood it runs `docker pull` and `docker run`)
 
 ## Learning Materials
 
