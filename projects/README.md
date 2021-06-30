@@ -10,6 +10,28 @@ Here's my suggested approach for tackling these projects:
 
 ## R Shiny Dashbaord in a Docker container
 
+## Introduction to CI for Data Scientists
+
+- Introduction and explanation of Git, GitHub, GitHub desktop
+  - Steps to fork the repository, clone the fork, make a change and commit it back, make a change as a pull request
+- Introduction to CI/CD, and GitHub Actions
+- Project format:
+		- A small library with some data cleaning methods 
+		- A notebook
+- Writes a workflow to run tests on their library methods, and their notebook!
+
 ## Surfacing a Machine Learning Model as a REST API
+
+**Context**: It's more and more common for software to provide recommendations, auto-complete inputs, or project future outcomes using Machine Learning. In a distributed system or large organization, it may make sense to surface a trained ML model to the rest of the application/system with a REST API. In this scenario, a client can POST inputs to the API and recieve recommendations, auto-completion text, or any other inferred output. This pattern is commonly referred to as an "Inference API", since the API returns an _inference_ given the inputs. Some cloud providers (AWS, Azure, GCP) provide services specifically for inferences APIs: [GCP Cloud Inference API for time-series data](https://cloud.google.com/inference), [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where?tabs=azcli).
+
+**Goal**: The goal of the project will be to guide a data science or computer science student through process of creating a **simple** Machine Learning model, and exposing it a REST API in a small, **simple** application. 
+
+### Deliverables
+
+1. A Jupyter notebook that trains an ML model on some data
+2. A web application that... 
+    1. Exposes the ML model as a REST API (takes inputs that match those in the training data, and responds with the predicted value)
+    1. Takes some kind of user input
+    2. Passes the user input to the REST API and displays the predicted result
 
 ## Flask and Vue.js ToDo Application
