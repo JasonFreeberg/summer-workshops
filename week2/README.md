@@ -28,6 +28,7 @@
     - jobs
     - steps (actions)
   - In the spirit of Open Source, people can publish and [share Actions on the marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=)
+    - Actions can be versioned with the "@2.2" syntax, or pointed at a branch with "@dev" 
   - Examples:
     - [Hello world example](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/hello-world.yml)
     - [Simple CI workflow for Python](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/python-app.yml). Installs packages, lints the code, and runs Pytest
