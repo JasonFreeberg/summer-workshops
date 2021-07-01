@@ -19,14 +19,15 @@
   - DevOps: catch-all term for work involving development operations like CI pipelines, release management and deployment, and possibly IT infrastructure.
   - Chat-ops: automation built into the chat functionality on issues and pull requests. Useful in large organizations where you don't want users to have rights to manage issues/PRs directly. 
     - Ex: See Azure Docs repo
-  - Git-ops: a software development strategy where the git repository acts as the central source of truth for the project. An example would be defining your IT infrastructure using Terraform, and tagging releases or deployments with the respective commit hash.
-    - Ex: See Azure Bicep
+  - Git-ops: a software development strategy where the git repository acts as the central source of truth for the project. An example would be defining your IT infrastructure using Terraform, and tagging releases or deployments with the respective commit hash. Think "declarative", you have config files that declare each environment.
+    - "Bicep" is the programming syntax for declaring what resources you want, and where to deploy them: https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md
+    - https://www.cloudbees.com/gitops/what-is-gitops
 - GitHub Actions: an automation framework
   - hierarchy
     - workflow file
     - jobs
     - steps (actions)
-  - In the spirit of Open Source, people can publish and share Actions
+  - In the spirit of Open Source, people can publish and [share Actions on the marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=)
   - Examples:
     - [Hello world example](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/hello-world.yml)
     - [Simple CI workflow for Python](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/python-app.yml). Installs packages, lints the code, and runs Pytest
@@ -41,8 +42,12 @@
   - https://lab.github.com/githubtraining/github-actions:-hello-world
   - https://lab.github.com/githubtraining/github-actions:-continuous-integration
   - https://lab.github.com/githubtraining/github-actions:-using-github-script
-- General Reading
+- Reference documentation for Github Actions
+  - [Workflow syntax](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+  - [Events that Trigger Workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
+- General Reading/videos
   - https://azure.microsoft.com/en-us/overview/what-is-devops/#practices
+  - https://www.youtube.com/watch?v=b2oyxbSbLPA&ab_channel=MicrosoftAzure (you might recognize the presenter)
 
 ## Exercises
 
