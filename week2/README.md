@@ -6,7 +6,8 @@
   - "Inner dev loop" is writing code, building the code, and running/testing the code. When you're satisfied with your changes, you'll open a PR to push your changes into the code base. Then begins the next loop...
   - The "outer" loop involves running automated tests on your PR, getting it reviewed and merged. Next, someone will "cut a release" meaning that all the planned improvements for that milestone are in the code base at the commmit at which the release was made. From there, the compiled code might be deployed to a system, an update becomes available for mobile app users, etc. 
 
-    ![](https://lh3.googleusercontent.com/proxy/zc9YiocpMQm6vf2MzRKLMZbtVC-_iq5mDsAJ7itGrJx_TEIkCBSAOZCRlqlGEkO2DvN0gxubykWJ4yzMGs6GClP5SyEzo33wWoh-2VYLQb0YVpXoFw6M46u-UvkikA)
+    ![Visual diagram of inner and outer development loops](inner-outer-dev-loops.png)
+    
 - Continuous Integration
   - Test code, publish code coverage and results
   - Save time, prevent bugs which speeds development cycle
@@ -21,11 +22,17 @@
   - Git-ops: a software development strategy where the git repository acts as the central source of truth for the project. An example would be defining your IT infrastructure using Terraform, and tagging releases or deployments with the respective commit hash.
     - Ex: See Azure Bicep
 - GitHub Actions: an automation framework
-  - workflow file
-  - jobs
-  - steps
-  - actions
-  - dependent steps
+  - hierarchy
+    - workflow file
+    - jobs
+    - steps (actions)
+  - In the spirit of Open Source, people can publish and share Actions
+  - Examples:
+    - [Hello world example](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/hello-world.yml)
+    - [Simple CI workflow for Python](https://github.com/JasonFreeberg/python-playground/blob/main/.github/workflows/python-app.yml). Installs packages, lints the code, and runs Pytest
+    - [Workflow that deploys previews of a blog site for PR's](https://github.com/Azure/AppService/blob/master/.github/workflows/deploy-to-staging-site.yml) and comments the PR with a URL to the preview site.
+      - [And this workflow deletes the preview sites when the PR is closed](https://github.com/Azure/AppService/blob/master/.github/workflows/delete-slot.yml)
+      - [Live example on a PR](https://github.com/Azure/AppService/pull/230)
 
 ## Learning Materials
   
