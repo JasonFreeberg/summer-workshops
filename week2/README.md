@@ -33,6 +33,7 @@
     - [Workflow that deploys previews of a blog site for PR's](https://github.com/Azure/AppService/blob/master/.github/workflows/deploy-to-staging-site.yml) and comments the PR with a URL to the preview site.
       - [And this workflow deletes the preview sites when the PR is closed](https://github.com/Azure/AppService/blob/master/.github/workflows/delete-slot.yml)
       - [Live example on a PR](https://github.com/Azure/AppService/pull/230)
+    - [Builds and publishes a Docker image to DockerHub every time a release is published](https://github.com/crunch-time/crunchtime/blob/main/.github/workflows/publish-image.yml)
 
 ## Learning Materials
   
