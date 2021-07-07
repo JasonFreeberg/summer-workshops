@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client-side example</title>
+</head>
+
+<body>
+    <p>
+        This is a bare-bones example to show how JavaScript runs on the browser (aka "client side") to fetch data from a REST API, and then render it on the document. When the selector's value changes, a JavaScript event handler is triggered to fetch information about the character with the matching index.
+    </p>
+    <p>
+        This is kind of analogous to how a Model-View-Controller works, where the client-side Controller reactively fetches data as the user explores the page. Other models, such as Model-View-Template will render HTML documents on the server-side and send those to the client.
+    </p>
+    <form action="/action_page.php">
+        <label for="quantity">Input a character index:</label>
+        <input type="number" id="numberselector" name="quantity" min="1">
+    </form>
+
+    <div>
+        <p id="bio">Hello ...</p>
+    </div>
+
+    <div>
+        This was the raw response from the API:
+        <p id="raw_response"></p>
+    </div>
+
+    <script type="text/javascript">
+        
+            var httpRequest =new XMLHttpRequest();  // global variable, not good practice
+            document.getElementById("numberselector").addEventListener('click', getCharacterInfo);
+
+            function responseHandler() {
+                console.log(httpRequest.responseText);
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        var response = JSON.parse(httpRequest.response)
+                        var template = `
+                        <p>
+                        Hello my name is ${response.name}. I was born in the year ${response.birth_year} and have ${response.skin_color} skin. 
+                        </p>
+                        `
+                        document.getElementById("bio").innerHTML = template;
+                        document.getElementById("raw_response").innerHTML = httpRequest.response
+                    } else {
+                        
+                    }
+                }
+            }
+
+            function getCharacterInfo(index) {
+                var characterIndex = document.getElementById("numberselector").value;
+
+                if (!httpRequest) {
+                    alert('Giving up :( Cannot create an XMLHTTP instance');
+                    return false;
+                }
+
+                httpRequest.onreadystatechange = responseHandler;
+                httpRequest.open('GET', 'https://swapi.dev/api/people/' + characterIndex);
+                httpRequest.send();
+            }
+
+            
+
+        
+    </script>
+</body>
+
+</html>
