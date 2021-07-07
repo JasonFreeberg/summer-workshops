@@ -7,8 +7,9 @@
   - To get information like the user's information or content, the frontend will make a **request** to the backend. The frontend is unaware of how the information is retrieved or processed on the backend, nor should it be. This **decouples** the frontend from the backend and separates their concerns.
   - The thing that the frontend makes a request to is the "API". Specifically a "REST API" in this web development example. (You will hear "API" in a lot of contexts in software development. The Java programming language is actually an "API" to the Java Virtual Machine (JVM).)
 - Client-side development
-  - Everything that runs or is rendered in the browser: HTML, CSS, JavaScript. These can be simple, static, HTML documents... or they can be real applications built on Vue.js, React, Angular, or other frameworks. These frameworks are literally a _framework_ for using JavaScript to respond to user input and update the HTML document. These modern, advanced frameworks are used in a design pattern called "Model-View-Controller", where the **model** are the entities stored in a database (people, places, things), the **view** is an HTML document for rendering the data, (mapped to URL paths like /person, /place, /thing) and the **controller** is the JS running on the client, responding to user input and updating the view as necessary. 
-    - Something like Django, a popular web framework in Python, uses a simpler approach called "Model-View-Template", where the HTML document is rendered server-side and sent to the client. Javascript is minimal, typically for aesthetics or enhancing the user experience. The **templates** are similar to **views** in MVC, but they are less flexible.
+  - Everything that runs or is rendered in the browser: HTML, CSS, JavaScript. These can be simple, static, HTML documents... or they can be real applications built on Vue.js, React, Angular, or other frameworks. These frameworks are literally a _framework_ for using JavaScript to respond to user input and update the HTML document. 
+  - These modern, advanced frameworks are used in a design pattern called "Model-View-Controller", where the **model** are the entities stored in a database (people, places, things), the **view** is an HTML document for rendering the data, (mapped to URL paths like /person, /place, /thing) and the **controller** is the JS running on the client, responding to user input and updating the view as necessary. 
+  - Something like Django, a popular web framework in Python, uses a simpler approach called "Model-View-Template", where the HTML document is rendered server-side and sent to the client. Javascript is minimal, typically for aesthetics or enhancing the user experience. The **templates** are similar to **views** in MVC, but they are less flexible.
 - HTTP = Hypertext Transfer Protocol
   - It's how browsers (clients) and websites (servers) exchange information. Browsing to a website is a "request". Using the "requests" module in Python is... well... sending a request!
   - There are destinct parts to an HTTP request: URL, query parameters, headers, and body
@@ -25,6 +26,11 @@
   
 ## Learning materials
 
+- Articles explaining REST
+  - https://www.codecademy.com/articles/what-is-rest
+  - https://www.restapitutorial.com/ (use the toolbar at the top to browse the topics)
+- The Discord API is a great example of a well-designed REST API. Entities are clearly defined and abstracted for clients, as well as the operations that can be operated on them.
+  - https://discord.com/developers/docs/intro
 - Example APIs you can send requests to:
   - Star Wars API: https://swapi.dev/
     - Example: https://swapi.dev/api/people/1
@@ -37,6 +43,7 @@
   
 ## Exercises
 
+- The Django Tutorial. Go through this to learn about basic web development using a MVT framework. https://docs.djangoproject.com/en/3.2/intro/tutorial01/
 - Install Postman and send requests to the the public APIs above. Just browse around and try to get a feel for the URL formay and JSON
 - Follow this Flask tutorial: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 - Get a basic Flask app running locally with a single GET API that returns some JSON blob, it doesn't matter what the content is. Send a requst to it using Postman.
