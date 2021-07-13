@@ -10,6 +10,10 @@ Here's my suggested approach for tackling these projects:
 
 ## R Shiny Dashbaord in a Docker container
 
+**Context**: R is a statistical programming language, and [Shiny](https://rstudio.github.io/shinydashboard/) is a dashboarding framework for R. 
+
+**Goal**: Create a template repository on GitHub for Shiny Dashboards. The project will contain a Dockerfile that runs the dashboad, GitHub Actions to run CI for pull requests, and workflows to publish the container images to GitHub Container Registry when a release is made. It should also have instructions to deploy the Container to Azure. 
+
 ## Introduction to CI for Data Scientists
 
 - Introduction and explanation of Git, GitHub, GitHub desktop
@@ -34,4 +38,6 @@ Here's my suggested approach for tackling these projects:
     1. Takes some kind of user input
     2. Passes the user input to the REST API and displays the predicted result
 
-## Flask and Vue.js ToDo Application
+## Flask and Python ToDo Application
+
+Not so much related to Data Science, but the goal would be to create an application for ToDo lists (a common getting-started practice for software dev) with Vue.js and your choice of Flask or Django REST Framework.
