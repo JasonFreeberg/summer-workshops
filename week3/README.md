@@ -48,28 +48,28 @@
 - Follow this Flask tutorial: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 - Get a basic Flask app running locally with a single GET API that returns some JSON blob, it doesn't matter what the content is. Send a requst to it using Postman.
   - Hint: the URL in Postman will look like "127.0.0.1:5000/api/example-api/" or "localhost:5000/api/example-api/". The "example-api" will depend on what you actually name the route. The Port may also be different.
-- Fork the Flask app on Azure Samples, run it locally. Following the other APIs as an example..
-- implement 2 APIs to GET resource
-- Implement a GET API ("/api/upperCaseService") that accepts a request body with this content:
+- Fork the [Flask app on Azure Samples](https://github.com/Azure-Samples/python-docs-flask-minimal) or create your own. Following the other APIs as an example..
+    - implement 2 APIs to GET resource
+    - Implement a GET API ("/api/upperCaseService") that accepts a request body with this content:
 
-  ```json
-  {
-    "words": ["james", "may", "jeremy", "clarkson", "richard", "hammond"]
-  }
-  ```
+      ```json
+      {
+        "words": ["james", "may", "jeremy", "clarkson", "richard", "hammond"]
+      }
+      ```
 
-  And returns the **same** body object, but the words are Capitalized! 
-  
-  ```json
-  {
-    "words": ["James", "May", "Jeremy", "Clarkson", "Richard", "Hammond"]
-  }
-  ```
-  
-  Don't just return static content, your API should should read the request body, uppercase the words in the array, and return the object. You can test your API by sending a more complex request:
-  
-  ```json
-  {
-    "words": ["here", "are", "a", "lot", "of", "words", "that", "need", "to", "all", "be", "capitalized"]
-  }
-  ```
+      And returns the **same** body object, but the words are Capitalized! 
+
+      ```json
+      {
+        "words": ["James", "May", "Jeremy", "Clarkson", "Richard", "Hammond"]
+      }
+      ```
+
+      Don't just return static content, your API should should read the request body, uppercase the words in the array, and return the object. You can test your API by sending a more complex request:
+
+      ```json
+      {
+        "words": ["here", "are", "a", "lot", "of", "words", "that", "need", "to", "all", "be", "capitalized"]
+      }
+      ```
