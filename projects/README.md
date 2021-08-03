@@ -20,8 +20,8 @@ Here's my suggested approach for tackling these projects:
   - Steps to fork the repository, clone the fork, make a change and commit it back, make a change as a pull request
 - Introduction to CI/CD, and GitHub Actions
 - Project format:
-		- A small library with some data cleaning methods 
-		- A notebook
+    - A small library with some data cleaning methods 
+    - A notebook
 - Writes a workflow to run tests on their library methods, and their notebook!
 
 ## Surfacing a Machine Learning Model as a REST API
