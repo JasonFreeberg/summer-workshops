@@ -4,3 +4,5 @@ RUN mkdir /src
 WORKDIR /src
 
 COPY hello.sh hello.sh
+
+CMD /src/hello.sh

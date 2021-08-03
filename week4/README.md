@@ -23,11 +23,13 @@
 
 1. [Getting Started Guide from Docker](https://docs.docker.com/get-started/). Only parts 1 through 4 are necessary at this point.
     - Looks like Microsoft has an identical guide here: https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial
-3. YouTube Videos. These are from the context of .NET, which is a framework built on top of C#. You can ignore the .NET specifics, but their explanations and reasoning about Docker containers is in plain English.
+3. See the [hello-docker](hello-docker/) directory for a bare-bones Dockerfile and usage instructions
+4. Another simple example Dockerfile, this time for a Java app: https://github.com/JasonFreeberg/my-spring-app 
+5. YouTube Videos. These are from the context of .NET, which is a framework built on top of C#. You can ignore the .NET specifics, but their explanations and reasoning about Docker containers is in plain English.
     1. https://www.youtube.com/watch?v=vmnvOITMoIg&ab_channel=dotNET
     2. https://www.youtube.com/watch?v=k2sskhYEPkI&ab_channel=dotNET
     3. https://www.youtube.com/watch?v=d7D0h9i-QCw&ab_channel=dotNET
-  
+
 ## Exercises
   
 1. If you haven't already, fork the python-playground sample repo. In your fork, add a `Dockerfile` that creates a virtual environment, installs the packages, and runs the application. Remember, your Dockerfile will need to copy the application code and requirements.txt file!
