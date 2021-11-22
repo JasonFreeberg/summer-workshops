@@ -8,7 +8,7 @@ See this [YouTube Video Playlist](https://www.youtube.com/playlist?list=PLPUlxn-
 - [Week 2: CI/CD, DevOps, and GitHub Actions](week2/)
 - [Week 3: REST APIs](week3/)
 - [Week 4: Docker Containers](week4/)
-- Week 5: Welcome to the cloud
+- [Week 5: Welcome to the cloud](week5/) (incomplete)
 
 ## Software
 
