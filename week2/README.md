@@ -1,5 +1,7 @@
 # Week 2: DevOps & CI/CD
 
+[YouTube Video](https://www.youtube.com/watch?v=hrHMsn4dj90&list=PLPUlxn-SEMFqHzfl1jDuAgdO1Odj5hz-2&index=2&t=3s&ab_channel=JasonFreeberg)
+
 ## Topics
 
 - Inner and outer development loops
