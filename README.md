@@ -1,6 +1,6 @@
 # Summer Workshops
 
-Summer workshops, Data Science @ UCSB
+Summer workshops, Data Science @ UCSB and UVA
 
 See this [YouTube Video Playlist](https://www.youtube.com/playlist?list=PLPUlxn-SEMFqHzfl1jDuAgdO1Odj5hz-2) for videos from each week's session.
 
