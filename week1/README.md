@@ -1,5 +1,7 @@
 # Week 1: Source control
 
+[YouTube Video](https://www.youtube.com/watch?v=xPp0gd4qAmE&list=PLPUlxn-SEMFqHzfl1jDuAgdO1Odj5hz-2&index=1&t=26s&ab_channel=JasonFreeberg)
+
 ## Topics
 
 - What is source control
