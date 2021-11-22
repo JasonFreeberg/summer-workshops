@@ -1,5 +1,7 @@
 # Week 3: REST API
 
+[YouTube Video](https://www.youtube.com/watch?v=_LBfKSbkHus&list=PLPUlxn-SEMFqHzfl1jDuAgdO1Odj5hz-2&index=3&t=124s&ab_channel=JasonFreeberg)
+
 ## Topics
 
 - Frontend/backend
