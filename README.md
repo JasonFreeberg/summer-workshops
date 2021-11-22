@@ -1,5 +1,7 @@
 # Summer Workshops
 
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLPUlxn-SEMFqHzfl1jDuAgdO1Odj5hz-2)
+
 Summer workshops, Data Science @ UCSB
 
 - [Week 1: Git, GitHub, Source Control workflow](week1/)
